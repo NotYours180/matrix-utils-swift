@@ -26,6 +26,7 @@
 //
 
 import Foundation
+#if os(iOS)
 import UIKit
 
 extension UIColor {
@@ -57,3 +58,4 @@ extension UIColor {
         return UIColor(red: CGFloat(255 - redLighter)/255, green: CGFloat(255 - greenLighter)/255, blue: CGFloat(255 - blueLighter)/255, alpha: 1.0)
     }
 }
+#endif
