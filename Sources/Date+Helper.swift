@@ -29,13 +29,13 @@ import Foundation
 
 extension Date {
 
-    func toString(format: String) -> String {
+    public func toString(format: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)
     }
 
-    func add(years: Int = 0, months: Int = 0, days: Int = 0) -> Date {
+    public func add(years: Int = 0, months: Int = 0, days: Int = 0) -> Date {
         let timeIntervalNow =  Calendar.current.dateComponents([.year, .month, .day], from: self)
         let dateNow = Calendar.current.date(from: timeIntervalNow)!
         var timeInterval = DateComponents()
@@ -46,7 +46,7 @@ extension Date {
         return futureDate
     }
 
-    func remove(years: Int = 0, months: Int = 0, days: Int = 0) -> Date {
+    public func remove(years: Int = 0, months: Int = 0, days: Int = 0) -> Date {
         var timeInterval =  Calendar.current.dateComponents([.year, .month, .day], from: self)
         timeInterval.year = timeInterval.year! - years
         timeInterval.month = timeInterval.month! - months
@@ -58,28 +58,28 @@ extension Date {
         return futureDate
     }
 
-    func yearsFrom(_ date: Date) -> Int {
+    public func yearsFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.year, from: date, to: self, options: []).year!
     }
-    func monthsFrom(_ date: Date) -> Int {
+    public func monthsFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.month, from: date, to: self, options: []).month!
     }
-    func weeksFrom(_ date: Date) -> Int {
+    public func weeksFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.weekOfYear, from: date, to: self, options: []).weekOfYear!
     }
-    func daysFrom(_ date: Date) -> Int {
+    public func daysFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.day, from: date, to: self, options: []).day!
     }
-    func hoursFrom(_ date: Date) -> Int {
+    public func hoursFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.hour, from: date, to: self, options: []).hour!
     }
-    func minutesFrom(_ date: Date) -> Int {
+    public func minutesFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.minute, from: date, to: self, options: []).minute!
     }
-    func secondsFrom(_ date: Date) -> Int {
+    public func secondsFrom(_ date: Date) -> Int {
         return (Calendar.current as NSCalendar).components(.second, from: date, to: self, options: []).second!
     }
-    func offsetFrom(_ date: Date) -> (Int, String) {
+    public func offsetFrom(_ date: Date) -> (Int, String) {
         if date < Date() {
             if yearsFrom(date)   > 0 { return (yearsFrom(date), yearsFrom(date) == 1 ? "year":"years")   }
             if monthsFrom(date)  > 0 { return (monthsFrom(date), monthsFrom(date) == 1 ? "month" : "months")   }

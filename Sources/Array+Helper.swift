@@ -28,7 +28,7 @@
 import Foundation
 
 extension Sequence where Iterator.Element: Hashable {
-    func unique() -> [Iterator.Element] {
+    public func unique() -> [Iterator.Element] {
         var seen: [Iterator.Element: Bool] = [:]
         return self.filter { seen.updateValue(true, forKey: $0) == nil }
     }
@@ -36,24 +36,24 @@ extension Sequence where Iterator.Element: Hashable {
 
 extension Array where Element: Integer {
     /// Returns the sum of all elements in the array
-    var total: Element {
+    public var total: Element {
         return reduce(0, +)
     }
 }
 extension Collection where Iterator.Element == Int, Index == Int {
     /// Returns the average of all elements in the array
-    var average: Double {
+    public var average: Double {
         return isEmpty ? 0 : Double(reduce(0, +)) / Double(endIndex-startIndex)
     }
 }
 
 extension Array where Element: FloatingPoint {
     /// Returns the sum of all elements in the array
-    var total: Element {
+    public var total: Element {
         return reduce(0, +)
     }
     /// Returns the average of all elements in the array
-    var average: Element {
+    public var average: Element {
         return isEmpty ? 0 : total / Element(count)
     }
 }
@@ -61,14 +61,14 @@ extension Array where Element: FloatingPoint {
 extension Collection where Indices.Iterator.Element == Index {
 
     /// Returns the element at the specified index iff it is within bounds, otherwise nil.
-    subscript (safe index: Index) -> Generator.Element? {
+    public subscript (safe index: Index) -> Generator.Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }
 
 extension Array {
 
-    func groupBy<G: Hashable>(groupClosure: (Element) -> G) -> [[Element]] {
+    public func groupBy<G: Hashable>(groupClosure: (Element) -> G) -> [[Element]] {
         var groups = [[Element]]()
 
         for element in self {
@@ -100,7 +100,7 @@ extension Array {
         return groups
     }
 
-    func groupBy<K, V>(keyFunc: @escaping (V) -> K?) -> ([AnyObject]) -> [K: [V]] {
+    public func groupBy<K, V>(keyFunc: @escaping (V) -> K?) -> ([AnyObject]) -> [K: [V]] {
         var grouped = [K: [V]]()
         func group(collection: [AnyObject]) -> [K: [V]] {
             for c in collection {

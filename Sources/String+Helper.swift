@@ -30,7 +30,7 @@ import Foundation
 extension String {
 
     /// Convert and return a dictionary for `self`.
-    func getDictionary() -> [String:AnyObject]? {
+    public func getDictionary() -> [String:AnyObject]? {
         if let data = self.data(using: String.Encoding.utf8) {
             do {
                 return try JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject]
@@ -42,7 +42,7 @@ extension String {
     }
 
     /// Convert and return an array for `self`.
-    func getArray() -> [AnyObject]? {
+    public func getArray() -> [AnyObject]? {
         if let data = self.data(using: String.Encoding.utf8) {
             do {
                 return try JSONSerialization.jsonObject(with: data, options: []) as? [AnyObject]
@@ -54,17 +54,17 @@ extension String {
     }
 
     /// Remove white spaces for `self`.
-    func trim() -> String {
+    public func trim() -> String {
         return self.trimmingCharacters(in: NSCharacterSet.whitespaces)
     }
 
     /// Validate if is alphanumeric for `self`.
-    var isAlphanumeric: Bool {
+    public var isAlphanumeric: Bool {
         return range(of: "^[a-zA-Z0-9]+$", options: .regularExpression) != nil
     }
 
     /// Get first character for each word for `self`
-    func initials() -> String {
+    public func initials() -> String {
         let initialsArray = self.characters.split {$0 == " "}.map(String.init).flatMap({ $0.characters.first })
         return String(initialsArray).uppercased()
     }

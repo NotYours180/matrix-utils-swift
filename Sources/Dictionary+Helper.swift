@@ -30,7 +30,7 @@ import Foundation
 extension Dictionary {
 
     /// Convert and return a json string for `self`.
-    var json: String? {
+    public var json: String? {
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: self, options: .prettyPrinted)
             return String(bytes: jsonData, encoding: String.Encoding.utf8)
@@ -40,7 +40,7 @@ extension Dictionary {
     }
 
     /// Convert and return Data for `self`.
-    var data: Data? {
+    public var data: Data? {
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: self, options: .prettyPrinted)
             return jsonData
@@ -50,7 +50,7 @@ extension Dictionary {
     }
 
     /// Add another dictionary into `self`
-    mutating func update(other: Dictionary) {
+    public mutating func update(other: Dictionary) {
         for (key, value) in other {
             self.updateValue(value, forKey:key)
         }

@@ -28,6 +28,6 @@
 import Foundation
 
 extension Int {
-    var degreesToRadians: Double { return Double(self) * .pi / 180 }
-    var radiansToDegrees: Double { return Double(self) * 180 / .pi }
+    public var degreesToRadians: Double { return Double(self) * .pi / 180 }
+    public var radiansToDegrees: Double { return Double(self) * 180 / .pi }
 }

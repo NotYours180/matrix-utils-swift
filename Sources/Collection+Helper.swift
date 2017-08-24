@@ -29,7 +29,7 @@ import Foundation
 
 extension Collection {
 
-    func find(predicate:(Self.Iterator.Element) throws -> Bool) rethrows -> Self.Iterator.Element? {
+    public func find(predicate:(Self.Iterator.Element) throws -> Bool) rethrows -> Self.Iterator.Element? {
         return try index(where: predicate).map({self[$0]})
     }
 
