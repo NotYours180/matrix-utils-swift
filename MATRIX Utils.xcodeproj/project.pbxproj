@@ -15,6 +15,7 @@
 		A7F908441F4E4B0700467E8E /* Double+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908431F4E4B0700467E8E /* Double+Helper.swift */; };
 		A7F908461F4E4CF600467E8E /* Int+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908451F4E4CF600467E8E /* Int+Helper.swift */; };
 		A7F908481F4E4D3900467E8E /* FloatingPoint+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908471F4E4D3900467E8E /* FloatingPoint+Helper.swift */; };
+		A7F9084A1F4F30F200467E8E /* Color+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908491F4F30F200467E8E /* Color+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A7F908431F4E4B0700467E8E /* Double+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Helper.swift"; sourceTree = "<group>"; };
 		A7F908451F4E4CF600467E8E /* Int+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Helper.swift"; sourceTree = "<group>"; };
 		A7F908471F4E4D3900467E8E /* FloatingPoint+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Helper.swift"; sourceTree = "<group>"; };
+		A7F908491F4F30F200467E8E /* Color+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Helper.swift"; sourceTree = "<group>"; };
 		B8309DAB7D127F431CDBD149 /* Pods-MATRIX Streaming SDK tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK tvOS/Pods-MATRIX Streaming SDK tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		CDDD84AF96E36A2F1110492C /* Pods_MATRIX_Streaming_SDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Streaming_SDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADF685D370A0C40C8F6D7FE /* Pods-MATRIX Streaming SDK iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK iOS/Pods-MATRIX Streaming SDK iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A7F908431F4E4B0700467E8E /* Double+Helper.swift */,
 				A7F908451F4E4CF600467E8E /* Int+Helper.swift */,
 				A7F908471F4E4D3900467E8E /* FloatingPoint+Helper.swift */,
+				A7F908491F4F30F200467E8E /* Color+Helper.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				A7F908441F4E4B0700467E8E /* Double+Helper.swift in Sources */,
 				A7F908481F4E4D3900467E8E /* FloatingPoint+Helper.swift in Sources */,
 				A7F908421F4E4A7300467E8E /* Array+Helper.swift in Sources */,
+				A7F9084A1F4F30F200467E8E /* Color+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
