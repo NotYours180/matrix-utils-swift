@@ -7,7 +7,5 @@ env:
   - FRAMEWORK_NAME="MATRIX Utils"
 before_install:
   - rvm install ruby-2.2.2
-  - gem install cocoapods
   - gem install xcpretty -N
-  - pod repo update && pod install
 script: ./ci/travis.sh
