@@ -31,7 +31,7 @@ import UIKit
 
 extension UIColor {
 
-    func rgb(red: inout Int, green: inout Int, blue: inout Int, alpha: inout Int) {
+    public func rgb(red: inout Int, green: inout Int, blue: inout Int, alpha: inout Int) {
         var fRed: CGFloat = 0
         var fGreen: CGFloat = 0
         var fBlue: CGFloat = 0
@@ -49,7 +49,7 @@ extension UIColor {
         }
     }
 
-    func lighter(by percentage: CGFloat) -> UIColor? {
+    public func lighter(by percentage: CGFloat) -> UIColor? {
         var red: Int = 0, green: Int = 0, blue: Int = 0, alpha: Int = 0
         self.rgb(red: &red, green: &green, blue: &blue, alpha: &alpha)
         let redLighter = ((CGFloat(255) - CGFloat(red)) * percentage) / 100
