@@ -17,8 +17,8 @@ function build() {
 }
 
 # ----- OS: --- Destination:
-build   macOS   "arch=x86_64"
+# build   macOS   "arch=x86_64"
 build   iOS     "OS=9.0,name=iPhone 6"
-build   tvOS    "OS=9.0,name=Apple TV 1080p"
+# build   tvOS    "OS=9.0,name=Apple TV 1080p"
 
 pod lib lint --quick
