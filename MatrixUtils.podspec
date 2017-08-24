@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target    = '9.0'
     s.source                    = { :git => "#{s.homepage}.git", :tag => "v#{s.version}" }
     s.source_files              = "Sources/**/*.swift"
+    s.ios.framework  = 'UIKit'
 end
