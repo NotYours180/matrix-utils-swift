@@ -6,6 +6,5 @@ env:
   - LANG=en_US.UTF-8
   - FRAMEWORK_NAME="MATRIX Utils"
 before_install:
-  - rvm install ruby-2.2.2
   - gem install xcpretty -N
 script: ./ci/travis.sh
