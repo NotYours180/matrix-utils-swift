@@ -19,7 +19,7 @@ MATRIX Utilities for Swift
 To integrate MATRIX Utils into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-    pod 'MatrixUtils', '~> 1.0.3'
+    pod 'MatrixUtils'
 ```
 
 Then, run the following command:
