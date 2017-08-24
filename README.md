@@ -8,7 +8,7 @@ MATRIX Utilities for Swift
 ![Swift](https://img.shields.io/badge/%20in-swift%203.0-orange.svg)
 ## Requirements
 
-- iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 8.0+
 - Xcode 8.1, 8.2, 8.3
 - Swift 3.0, 3.1, 3.2
 
