@@ -7,7 +7,7 @@ xcodebuild -version
 function build() {
     for cfg in Debug Release; do
         xcodebuild \
-            -workspace "$FRAMEWORK_NAME.xcworkspace" \
+            -project "$FRAMEWORK_NAME.xcodeproj" \
             -scheme    "$FRAMEWORK_NAME $1" \
             -destination "$2" \
             -configuration "$cfg" \
