@@ -12,7 +12,7 @@ function build() {
             -destination "$2" \
             -configuration "$cfg" \
             ONLY_ACTIVE_ARCH=NO \
-            test | xcpretty
+            build | xcpretty
     done
 }
 
