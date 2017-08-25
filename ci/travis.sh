@@ -5,15 +5,16 @@ set -e -o pipefail
 xcodebuild -version
 
 function build() {
-    for cfg in Debug Release; do
-        xcodebuild \
-            -project "$FRAMEWORK_NAME.xcodeproj" \
-            -scheme    "$FRAMEWORK_NAME $1" \
-            -destination "$2" \
-            -configuration "$cfg" \
-            ONLY_ACTIVE_ARCH=NO \
-            build | xcpretty
-    done
+    xcodebuild -project "MATRIX Utils.xcodeproj" -scheme "MATRIX Utils iOS" -destination "generic/platform=iOS" -configuration "release" ONLY_ACTIVE_ARCH=NO build | xcpretty
+    # for cfg in Debug Release; do
+    #     xcodebuild \
+    #         -project "$FRAMEWORK_NAME.xcodeproj" \
+    #         -scheme    "$FRAMEWORK_NAME $1" \
+    #         -destination "$2" \
+    #         -configuration "$cfg" \
+    #         ONLY_ACTIVE_ARCH=NO \
+    #         build | xcpretty
+    # done
 }
 
 # ----- OS: --- Destination:
