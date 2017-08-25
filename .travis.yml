@@ -8,8 +8,6 @@ env:
     - FRAMEWORK_NAME="MATRIX Utils"
 before_install:
   - rvm install ruby-2.2.2
+  - gem install cocoapods
   - gem install xcpretty -N
-script:
-  - xcodebuild -version
-  - xcodebuild -project "MATRIX Utils.xcodeproj" -scheme "MATRIX Utils iOS" -destination "generic/platform=iOS" -configuration "release" ONLY_ACTIVE_ARCH=NO build | xcpretty
-  - pod lib lint --quick
+script: ./ci/travis.sh
