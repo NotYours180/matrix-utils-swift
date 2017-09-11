@@ -16,6 +16,6 @@ script:
   - pod lib lint --quick 
 deploy:
   provider: script
-  script: ./scripts/push.sh
+  script: sh $TRAVIS_BUILD_DIR/scripts/push.sh
   on:
     tags: true
