@@ -14,3 +14,10 @@ script:
   - xcodebuild -version
   - xcodebuild -project "MATRIX Utils.xcodeproj" -scheme "MATRIX Utils iOS" -destination "generic/platform=iOS" -configuration "release" ONLY_ACTIVE_ARCH=NO build | xcpretty
   - pod lib lint --quick 
+deploy:
+  provider: script
+  script:
+    - rvm use default
+    - pod trunk push
+  on:
+    tags: true
