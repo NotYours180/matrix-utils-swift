@@ -16,8 +16,6 @@ script:
   - pod lib lint --quick 
 deploy:
   provider: script
-  script:
-    - rvm use default
-    - pod trunk push
+  script: ./scripts/push.sh
   on:
     tags: true
