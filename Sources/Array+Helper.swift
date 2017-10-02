@@ -34,7 +34,7 @@ extension Sequence where Iterator.Element: Hashable {
     }
 }
 
-extension Array where Element: Integer {
+extension Array where Element: BinaryInteger {
     /// Returns the sum of all elements in the array
     public var total: Element {
         return reduce(0, +)
@@ -58,10 +58,10 @@ extension Array where Element: FloatingPoint {
     }
 }
 
-extension Collection where Indices.Iterator.Element == Index {
+extension Collection {
 
     /// Returns the element at the specified index iff it is within bounds, otherwise nil.
-    public subscript (safe index: Index) -> Generator.Element? {
+    public subscript (safe index: Index) -> Iterator.Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }

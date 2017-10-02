@@ -16,17 +16,20 @@
 		A7F908461F4E4CF600467E8E /* Int+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908451F4E4CF600467E8E /* Int+Helper.swift */; };
 		A7F908481F4E4D3900467E8E /* FloatingPoint+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908471F4E4D3900467E8E /* FloatingPoint+Helper.swift */; };
 		A7F9084A1F4F30F200467E8E /* Color+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F908491F4F30F200467E8E /* Color+Helper.swift */; };
+		E45CCFE95244503ECAB9744A /* Pods_MATRIX_Utils_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FEF5497DB91CD33CB91C30 /* Pods_MATRIX_Utils_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E5444690CA0D7E98D0DA9AA /* Pods-MATRIX Streaming SDK macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK macOS/Pods-MATRIX Streaming SDK macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		312D6A34F41B2B351B616DBE /* Pods_MATRIX_Streaming_SDK_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Streaming_SDK_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C70FFC9AD6BB243D493D53 /* Pods-MATRIX Streaming SDK watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK watchOS/Pods-MATRIX Streaming SDK watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5242240E1F02AA8E00AFE02E /* MatrixStreamingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixStreamingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FEF5497DB91CD33CB91C30 /* Pods_MATRIX_Utils_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Utils_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5242240E1F02AA8E00AFE02E /* MatrixUtilsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixUtilsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		524224171F02AABC00AFE02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561ABE0D22021066F9931AFD /* Pods-MATRIX Streaming SDK tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK tvOS/Pods-MATRIX Streaming SDK tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6AB2A90229EEAF09C7EFA27D /* Pods-MATRIX Streaming SDK iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK iOS/Pods-MATRIX Streaming SDK iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		73BF855A2CD029A336F3F1CD /* Pods-MATRIX Streaming SDK watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK watchOS/Pods-MATRIX Streaming SDK watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		9F05BE67010A2E1F2D4B4520 /* Pods-MATRIX Utils iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Utils iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Utils iOS/Pods-MATRIX Utils iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A7F908391F4E45A300467E8E /* String+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
 		A7F9083B1F4E485900467E8E /* Dictionary+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Helper.swift"; sourceTree = "<group>"; };
 		A7F9083D1F4E498500467E8E /* Date+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helper.swift"; sourceTree = "<group>"; };
@@ -36,10 +39,12 @@
 		A7F908451F4E4CF600467E8E /* Int+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Helper.swift"; sourceTree = "<group>"; };
 		A7F908471F4E4D3900467E8E /* FloatingPoint+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Helper.swift"; sourceTree = "<group>"; };
 		A7F908491F4F30F200467E8E /* Color+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Helper.swift"; sourceTree = "<group>"; };
+		A7F93EC61F82DBEF00471B76 /* MatrixUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MatrixUtils.podspec; sourceTree = "<group>"; };
 		B8309DAB7D127F431CDBD149 /* Pods-MATRIX Streaming SDK tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK tvOS/Pods-MATRIX Streaming SDK tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		CDDD84AF96E36A2F1110492C /* Pods_MATRIX_Streaming_SDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Streaming_SDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADF685D370A0C40C8F6D7FE /* Pods-MATRIX Streaming SDK iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK iOS/Pods-MATRIX Streaming SDK iOS.release.xcconfig"; sourceTree = "<group>"; };
 		DD2303E1B2B10D98C31DDE71 /* Pods_MATRIX_Streaming_SDK_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Streaming_SDK_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E832A2A0CA9B829BD6F28206 /* Pods-MATRIX Utils iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Utils iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Utils iOS/Pods-MATRIX Utils iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F0A92DDEB2F7E883F04B9CA0 /* Pods_MATRIX_Streaming_SDK_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MATRIX_Streaming_SDK_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4579F8C4BBB83739251E079 /* Pods-MATRIX Streaming SDK macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MATRIX Streaming SDK macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MATRIX Streaming SDK macOS/Pods-MATRIX Streaming SDK macOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45CCFE95244503ECAB9744A /* Pods_MATRIX_Utils_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 				B8309DAB7D127F431CDBD149 /* Pods-MATRIX Streaming SDK tvOS.release.xcconfig */,
 				38C70FFC9AD6BB243D493D53 /* Pods-MATRIX Streaming SDK watchOS.debug.xcconfig */,
 				73BF855A2CD029A336F3F1CD /* Pods-MATRIX Streaming SDK watchOS.release.xcconfig */,
+				E832A2A0CA9B829BD6F28206 /* Pods-MATRIX Utils iOS.debug.xcconfig */,
+				9F05BE67010A2E1F2D4B4520 /* Pods-MATRIX Utils iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -73,6 +81,7 @@
 		524223CD1F02A92F00AFE02E = {
 			isa = PBXGroup;
 			children = (
+				A7F93EC61F82DBEF00471B76 /* MatrixUtils.podspec */,
 				524224181F02AAEF00AFE02E /* Sources */,
 				524224161F02AABC00AFE02E /* Resources */,
 				524223DA1F02A99400AFE02E /* Products */,
@@ -84,7 +93,7 @@
 		524223DA1F02A99400AFE02E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5242240E1F02AA8E00AFE02E /* MatrixStreamingSDK.framework */,
+				5242240E1F02AA8E00AFE02E /* MatrixUtilsSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 				312D6A34F41B2B351B616DBE /* Pods_MATRIX_Streaming_SDK_macOS.framework */,
 				F0A92DDEB2F7E883F04B9CA0 /* Pods_MATRIX_Streaming_SDK_tvOS.framework */,
 				DD2303E1B2B10D98C31DDE71 /* Pods_MATRIX_Streaming_SDK_watchOS.framework */,
+				42FEF5497DB91CD33CB91C30 /* Pods_MATRIX_Utils_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,10 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524224131F02AA8F00AFE02E /* Build configuration list for PBXNativeTarget "MATRIX Utils iOS" */;
 			buildPhases = (
+				FE19AD1EE20E78F7A2C7B54F /* [CP] Check Pods Manifest.lock */,
 				524224091F02AA8E00AFE02E /* Sources */,
 				5242240A1F02AA8E00AFE02E /* Frameworks */,
 				5242240B1F02AA8E00AFE02E /* Headers */,
 				5242240C1F02AA8E00AFE02E /* Resources */,
+				84D7C2B400D0BF107F0FC2F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,7 +164,7 @@
 			);
 			name = "MATRIX Utils iOS";
 			productName = "MATRIX Streaming SDK iOS";
-			productReference = 5242240E1F02AA8E00AFE02E /* MatrixStreamingSDK.framework */;
+			productReference = 5242240E1F02AA8E00AFE02E /* MatrixUtilsSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -161,12 +173,12 @@
 		524223CE1F02A92F00AFE02E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "MATRIX Labs";
 				TargetAttributes = {
 					5242240D1F02AA8E00AFE02E = {
 						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -198,6 +210,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84D7C2B400D0BF107F0FC2F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MATRIX Utils iOS/Pods-MATRIX Utils iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE19AD1EE20E78F7A2C7B54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MATRIX Utils iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		524224091F02AA8E00AFE02E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,22 +269,70 @@
 		524223D21F02A92F00AFE02E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.streaming-swift-sdk";
-				PRODUCT_NAME = MatrixStreamingSDK;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.utils-swift-sdk";
+				PRODUCT_NAME = MatrixUtilsSDK;
 			};
 			name = Debug;
 		};
 		524223D31F02A92F00AFE02E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.streaming-swift-sdk";
-				PRODUCT_NAME = MatrixStreamingSDK;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.utils-swift-sdk";
+				PRODUCT_NAME = MatrixUtilsSDK;
 			};
 			name = Release;
 		};
 		524224141F02AA8F00AFE02E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB2A90229EEAF09C7EFA27D /* Pods-MATRIX Streaming SDK iOS.debug.xcconfig */;
+			baseConfigurationReference = E832A2A0CA9B829BD6F28206 /* Pods-MATRIX Utils iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -258,7 +354,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -288,11 +384,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.utils-swift-sdk";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -301,7 +399,7 @@
 		};
 		524224151F02AA8F00AFE02E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADF685D370A0C40C8F6D7FE /* Pods-MATRIX Streaming SDK iOS.release.xcconfig */;
+			baseConfigurationReference = 9F05BE67010A2E1F2D4B4520 /* Pods-MATRIX Utils iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -323,7 +421,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -346,10 +444,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.matrix.utils-swift-sdk";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

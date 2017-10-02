@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = "MatrixUtils"
-    s.version                   = "1.1.0"
+    s.version                   = "2.0.0"
     s.summary                   = "MATRIX Utils for Swift."
     s.homepage                  = "https://github.com/matrix-io/matrix-utils-swift"
     s.license                   = { :type => "MIT", :file => "LICENSE.md" }

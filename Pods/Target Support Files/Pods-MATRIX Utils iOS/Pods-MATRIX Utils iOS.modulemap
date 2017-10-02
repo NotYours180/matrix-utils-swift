@@ -1,0 +1,6 @@
+framework module Pods_MATRIX_Utils_iOS {
+  umbrella header "Pods-MATRIX Utils iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
